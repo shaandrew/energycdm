@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>BEXER</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/font-awesome.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+  <!-- chart js -->
+  <script src="plugins/chart/Chart.bundle.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <div class="spin"></div>
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header>
+  <!-- top header -->
+  <div class="top-header bg-secondary pt-2 pb-1">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- social icons -->
+        <div class="col-lg-6 col-md-6 text-center text-md-left">
+          <span class="text-white">Connect With Us:</span>
+          <ul class="list-inline d-inline-block">
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-rss"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-google"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-vimeo"></i></a></li>
+          </ul>
+        </div>
+        <!-- mail and phone -->
+        <div class="col-lg-6 col-md-6 text-md-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:info@bexar.com">info@bexar.com</a></li>
+            <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2" href="callto:1234565523">Call Us Now: <span class="text-primary">123 456 5523</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /top header -->
+
+  <!-- navigation -->
+  <div class="navigation bg-white position-relative">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid pb-lg-3" src="images/logo.png" alt="Bexar"></a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Homepage 1</a>
+                <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
+                <a class="dropdown-item" href="homepage-3.html">Homepage 3</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="about.html">About Us 1</a>
+                <a class="dropdown-item" href="about-2.html">About Us 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="blog.html">Blog</a>
+                <a class="dropdown-item" href="blog-2.html">Blog Sidebar</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="team.html">Team</a>
+                <a class="dropdown-item" href="project.html">Case Study</a>
+                <a class="dropdown-item" href="project-single.html">Project Details</a>
+                <a class="dropdown-item" href="service.html">Service 1</a>
+                <a class="dropdown-item" href="service-2.html">Service 2</a>
+                <a class="dropdown-item" href="service-single.html">Service Details</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Shortcode
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="components/buttons.html">Buttons</a>
+                  <a class="dropdown-item" href="components/icons.html">Icons</a>
+                  <a class="dropdown-item" href="components/typography.html">Typography</a>
+                  <a class="dropdown-item" href="components/accordions.html">Accordions</a>
+                  <a class="dropdown-item" href="components/blog-contents.html">Blog Contents</a>
+                  <a class="dropdown-item" href="components/service-contents.html">Service Contents</a>
+                  <a class="dropdown-item" href="components/team-contents.html">Team Contents</a>
+              </div>
+            </li>
+          </ul>
+          <!-- search -->
+          <div class="search px-4">
+            <button id="searchOpen" class="search-btn"><i class="fa fa-search text-dark"></i></button>
+            <div class="search-wrapper">
+              <form action="#">
+                <input class="search-box form-control" id="search" type="search" placeholder="Type & Hit Enter...">
+              </form>
+              <button id="searchClose" class="search-close"><i class="fa fa-close text-dark"></i></button>
+            </div>
+          </div>
+          <!-- get start btn -->
+          <a href="service.html" class="btn btn-primary hover-ripple">get started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- /navigation -->
+</header>
+<!-- /header -->
+
+<!-- page title -->
+<section class="section bg-cover overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-white mb-3">Service 1</h2>
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent p-0">
+            <li class="breadcrumb-item font-weight-semebold"><a class="text-white" href="index.html">Home</a></li>
+            <li class="breadcrumb-item font-weight-semebold active text-primary" aria-current="page">Service 1</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- service items -->
+<section class="section container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <span class="section-title-border border-center"></span>
+      <p class="subtitle">Best Service</p>
+      <h2 class="section-title">Service We Provide</h2>
+    </div>
+  </div>
+  <div class="row">
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-1.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-bar-chart"></i>
+          <h4><a href="service-single.html" class="text-dark">Market Analysis</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-2.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-handshake-o"></i>
+          <h4><a href="service-single.html" class="text-dark">Business Consulting</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-3.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-briefcase"></i>
+          <h4><a href="service-single.html" class="text-dark">Invesment Planning</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-4.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-bar-chart"></i>
+          <h4><a href="service-single.html" class="text-dark">Market Analysis</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-5.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-handshake-o"></i>
+          <h4><a href="service-single.html" class="text-dark">Business Consulting</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- service-item -->
+    <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="card border-0 rounded-0 box-shadow">
+        <img class="card-img-top rounded-0" src="images/service/service-6.jpg" alt="Card image cap">
+        <div class="card-body position-relative">
+          <i class="card-icon fa fa-briefcase"></i>
+          <h4><a href="service-single.html" class="text-dark">Invesment Planning</a></h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consecte tur adipis elit sed eiusmod.</p>
+          <a href="service-single.html" class="btn btn-secondary btn-arrow">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- service /items -->
+
+<!-- testimonial -->
+<section class="section overlay-secondary bg-cover" data-background="images/backgrounds/testimonial-bg.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <span class="section-title-border border-center"></span>
+        <p class="subtitle text-white">Testimonials</p>
+        <h2 class="section-title text-white">What Clients Are Say?</h2>
+      </div>
+    </div>
+    <!-- testimonial slider -->
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="testimonial-slider-2">
+          <!-- testimonial slider item -->
+          <div class="bg-quote text-center" data-dot-image="images/testimonial/client-1.jpg">
+            <p class="font-italic mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis recusandae harum, omnis explicabo deleniti expedita beatae, cum nulla tenetur ipsum velit magnam, libero in nihil assumenda! Possimus, sint sed eligendi culpa provident repellat veniam reiciendis nobis ducimus facilis veritatis cumque voluptatem. Praesentium, laborum quod at cum obcaecati voluptatum voluptatibus! Deserunt?</p>
+            <h4 class="text-white">Dominic Allen</h4>
+            <span class="text-white">Designer</span>
+          </div>
+          <!-- testimonial slider item -->
+          <div class="bg-quote text-center" data-dot-image="images/testimonial/client-2.jpg">
+            <p class="font-italic mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis recusandae harum, omnis explicabo deleniti expedita beatae, cum nulla tenetur ipsum velit magnam, libero in nihil assumenda! Possimus, sint sed eligendi culpa provident repellat veniam reiciendis nobis ducimus facilis veritatis cumque voluptatem. Praesentium, laborum quod at cum obcaecati voluptatum voluptatibus! Deserunt?</p>
+            <h4 class="text-white">Dominic Allen</h4>
+            <span class="text-white">Designer</span>
+          </div>
+          <!-- testimonial slider item -->
+          <div class="bg-quote text-center" data-dot-image="images/testimonial/client-3.jpg">
+            <p class="font-italic mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis recusandae harum, omnis explicabo deleniti expedita beatae, cum nulla tenetur ipsum velit magnam, libero in nihil assumenda! Possimus, sint sed eligendi culpa provident repellat veniam reiciendis nobis ducimus facilis veritatis cumque voluptatem. Praesentium, laborum quod at cum obcaecati voluptatum voluptatibus! Deserunt?</p>
+            <h4 class="text-white">Dominic Allen</h4>
+            <span class="text-white">Designer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /testimonial -->
+
+<!-- pricing -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title-border border-center"></div>
+        <p class="subtitle">Pricing Table</p>
+        <h2 class="section-title">Best Price Ever</h2>
+      </div>
+    </div>
+    <div class="pricing-container">
+  <div class="pricing-switcher">
+    <p class="fieldset">
+      <input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+      <label class="mb-0 monthly pricing-duration active" for="monthly-1">Monthly</label>
+      <input type="radio" name="duration-1" value="yearly" id="yearly-1">
+      <label class="mb-0 yearly pricing-duration" for="yearly-1">Yearly</label>
+      <span class="switch"></span>
+    </p>
+  </div>
+  <ul class="p-0 pricing-list bounce-invert">
+    <li>
+      <ul class="p-0 pricing-wrapper">
+        <li data-type="monthly" class="is-visible">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table">
+            <p class="subtitle">Basic</p>
+            <h2>$39.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light btn-light-alt hover-ripple">Select Plan</a>
+          </div>
+        </li>
+        <li data-type="yearly" class="is-hidden">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table">
+            <p class="subtitle">Basic</p>
+            <h2>$139.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light btn-light-alt hover-ripple">Select Plan</a>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li class="exclusive">
+      <ul class="p-0 pricing-wrapper">
+        <li data-type="monthly" class="is-visible">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table active">
+            <p class="subtitle">Popular</p>
+            <h2>$49.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light hover-ripple ripple-white">Select Plan</a>
+          </div>
+        </li>
+        <li data-type="yearly" class="is-hidden">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table active">
+            <p class="subtitle">Popular</p>
+            <h2>$149.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light hover-ripple ripple-white">Select Plan</a>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <ul class="p-0 pricing-wrapper">
+        <li data-type="monthly" class="is-visible">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table">
+            <p class="subtitle">Standard</p>
+            <h2>$59.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light btn-light-alt hover-ripple">Select Plan</a>
+          </div>
+        </li>
+        <li data-type="yearly" class="is-hidden">
+          <!-- pricing table -->
+          <div class="py-5 px-4 text-center border-left border-right border-color pricing-table">
+            <p class="subtitle">Standard</p>
+            <h2>$159.99</h2>
+            <h5 class="mb-4">Best for small individuals</h5>
+            <div class="border-bottom border-color mb-5"></div>
+            <ul class="list-unstyled mb-5">
+              <li class="mb-3">Express Service</li>
+              <li class="mb-3">Customs Clearance</li>
+              <li class="mb-3">Time-Critical Services</li>
+            </ul>
+            <a href="#" class="btn btn-light btn-light-alt hover-ripple">Select Plan</a>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+  </div>
+</section>
+<!-- /pricing -->
+
+<!-- footer -->
+<footer>
+  <!-- main footer -->
+  <div class="section bg-secondary">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- footer content -->
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="mb-4 d-inline-block" href="index.html"><img class="img-fluid" src="images/logo-alt.png" alt="Bexar"></a>
+          <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
+            labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
+            commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+          <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+            error sit voluptatem.</p>
+          <h4 class="text-white mb-4">Follow Us On</h4>
+          <!-- social links -->
+          <ul class="list-inline social-icon-alt">
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <!-- service list -->
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">Services</h4>
+              <ul class="list-styled">
+                <li class="mb-3 text-light"><a class="text-light d-block" href="about.html">Company History</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="about.html">About Us</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="service.html">Services</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <!-- contact info -->
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <ul class="list-unstyled">
+                <li class="text-light mb-3">9567 Turner Trace Apt. 466 North Willie, BC C3G8A4</li>
+                <li class="text-light mb-3">+21 123 456 5523 </li>
+                <li class="text-light mb-3">info@bexar.com</li>
+              </ul>
+            </div>
+            <!-- newsletter -->
+            <div class="col-12">
+              <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+              <form action="#">
+                <div class="position-relative">
+                  <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
+                    placeholder="Enter your email">
+                  <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="bg-secondary-darken py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="mb-0 text-white"><span class="text-primary">Bexar</span> &copy; <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> All Right Reserved</p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block px-3 text-white border-right" href="terms-conditions.html">Terms of Service</a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block px-3 text-white" href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- Modernizer -->
+<script src="plugins/modernizer/modernizr.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

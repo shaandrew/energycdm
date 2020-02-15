@@ -1,0 +1,64 @@
+/* footer */
+.list-styled {
+  padding-left: 0;
+
+  li {
+    position: relative;
+    padding-left: 20px;
+
+    &::before {
+      position: absolute;
+      content: "\f105";
+      font-family: $icon-font;
+      font-size: 14px;
+      left: 0;
+      top: 1px;
+      color: $primary-color;
+      transition: .3s ease;
+    }
+
+    &:hover {
+      &::before {
+        color: $primary-color !important;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    &.text-light {
+      &::before {
+        color: #ddd;
+      }
+    }
+  }
+
+  &.style-circle {
+    li::before {
+      content: "\f10c";
+    }
+  }
+}
+
+.newsletter-form {
+  background: rgba($color: $white, $alpha: .1);
+  border-radius: 35px;
+
+  &:focus {
+    background: rgba($color: $white, $alpha: .1);
+  }
+
+  &::placeholder {
+    color: $white;
+  }
+}
+
+.btn-subscribe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* /footer */

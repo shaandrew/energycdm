@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>BEXER</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/font-awesome.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+  <!-- chart js -->
+  <script src="plugins/chart/Chart.bundle.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <div class="spin"></div>
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header>
+  <!-- top header -->
+  <div class="top-header bg-secondary pt-2 pb-1">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- social icons -->
+        <div class="col-lg-6 col-md-6 text-center text-md-left">
+          <span class="text-white">Connect With Us:</span>
+          <ul class="list-inline d-inline-block">
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-rss"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-google"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="#"><i class="fa fa-vimeo"></i></a></li>
+          </ul>
+        </div>
+        <!-- mail and phone -->
+        <div class="col-lg-6 col-md-6 text-md-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:info@bexar.com">info@bexar.com</a></li>
+            <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2" href="callto:1234565523">Call Us Now: <span class="text-primary">123 456 5523</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /top header -->
+
+  <!-- navigation -->
+  <div class="navigation bg-white position-relative">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid pb-lg-3" src="images/logo.png" alt="Bexar"></a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Homepage 1</a>
+                <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
+                <a class="dropdown-item" href="homepage-3.html">Homepage 3</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="about.html">About Us 1</a>
+                <a class="dropdown-item" href="about-2.html">About Us 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="blog.html">Blog</a>
+                <a class="dropdown-item" href="blog-2.html">Blog Sidebar</a>
+                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="team.html">Team</a>
+                <a class="dropdown-item" href="project.html">Case Study</a>
+                <a class="dropdown-item" href="project-single.html">Project Details</a>
+                <a class="dropdown-item" href="service.html">Service 1</a>
+                <a class="dropdown-item" href="service-2.html">Service 2</a>
+                <a class="dropdown-item" href="service-single.html">Service Details</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Shortcode
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="components/buttons.html">Buttons</a>
+                  <a class="dropdown-item" href="components/icons.html">Icons</a>
+                  <a class="dropdown-item" href="components/typography.html">Typography</a>
+                  <a class="dropdown-item" href="components/accordions.html">Accordions</a>
+                  <a class="dropdown-item" href="components/blog-contents.html">Blog Contents</a>
+                  <a class="dropdown-item" href="components/service-contents.html">Service Contents</a>
+                  <a class="dropdown-item" href="components/team-contents.html">Team Contents</a>
+              </div>
+            </li>
+          </ul>
+          <!-- search -->
+          <div class="search px-4">
+            <button id="searchOpen" class="search-btn"><i class="fa fa-search text-dark"></i></button>
+            <div class="search-wrapper">
+              <form action="#">
+                <input class="search-box form-control" id="search" type="search" placeholder="Type & Hit Enter...">
+              </form>
+              <button id="searchClose" class="search-close"><i class="fa fa-close text-dark"></i></button>
+            </div>
+          </div>
+          <!-- get start btn -->
+          <a href="service.html" class="btn btn-primary hover-ripple">get started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- /navigation -->
+</header>
+<!-- /header -->
+
+<!-- page title -->
+<section class="section bg-cover overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-white mb-3">About Us 2</h2>
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent p-0">
+            <li class="breadcrumb-item font-weight-semebold"><a class="text-white" href="index.html">Home</a></li>
+            <li class="breadcrumb-item font-weight-semebold active text-primary" aria-current="page">About Us 2</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- about us -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row justify-content-between mb-80">
+      <div class="col-lg-5 col-md-6 mb-5 mb-md-0">
+  <span class="section-title-border"></span>
+  <p class="subtitle">About Us</p>
+  <h2 class="section-title">We Are Dynamic Team and Business Agency</h2>
+  <p class="mb-5">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim
+    est. laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+  <a href="service.html" class="btn btn-primary hover-ripple">more service</a>
+</div>
+<div class="col-md-6">
+  <!-- chart -->
+<canvas id="profit"></canvas>
+
+<!-- script -->
+<script>
+  let profit = document.getElementById('profit').getContext('2d');
+  let profitChart = new Chart(profit, {
+    type: 'line', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+    data: {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'jul'],
+      datasets: [{
+        label: 'Profit',
+        data: [
+          230,
+          400,
+          500,
+          380,
+          350,
+          450,
+          601
+        ],
+        backgroundColor: 'transparent',
+        borderWidth: 3,
+        borderColor: '#86c33a'
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Sales: 1 Sep, 2017 - 2 Aug, 2018',
+        fontSize: 15
+      },
+      legend: {
+        display: true,
+        position: 'right',
+        padding: 5,
+      },
+      layout: {
+        padding: {
+          left: 0,
+          right: 0,
+          bottom: 0,
+          top: 0
+        }
+      },
+      tooltips: {
+        enabled: true
+      }
+    }
+  });
+</script>
+</div>
+    </div>
+    <div class="row">
+  <!-- mission -->
+  <div class="col-md-4 mb-4 mb-md-0">
+    <h3><span class="text-primary">01.</span> Our Mission</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore.</p>
+    <ul class="list-styled style-circle">
+      <li class="mb-3">Quality Services</li>
+      <li class="mb-3">Clients Satisfaction</li>
+    </ul>
+  </div>
+  <!-- spproch -->
+  <div class="col-md-4 mb-4 mb-md-0">
+    <h3><span class="text-primary">02.</span> Our Approach</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore.</p>
+    <ul class="list-styled style-circle">
+      <li class="mb-3">Quality Services</li>
+      <li class="mb-3">Clients Satisfaction</li>
+    </ul>
+  </div>
+  <!-- philosophy -->
+  <div class="col-md-4 mb-4 mb-md-0">
+    <h3><span class="text-primary">03.</span> Our Philosophy</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore.</p>
+    <ul class="list-styled style-circle">
+      <li class="mb-3">Quality Services</li>
+      <li class="mb-3">Clients Satisfaction</li>
+    </ul>
+  </div>
+</div>
+  </div>
+  <!-- background shape -->
+  <img class="img-fluid about-bg-shape" src="images/backgrounds/about-us-3-bg.png" alt="shape">
+</section>
+<!-- /about us -->
+
+<!-- feature -->
+<section class="bg-gray">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 offset-xl-2 order-lg-1 order-2 section">
+        <span class="section-title-border"></span>
+        <p class="subtitle">Why Choose Us</p>
+        <h2 class="section-title">Why They Choose Bexar</h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incididunt ut
+          labore.</p>
+        <!-- feature item -->
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-center mb-5">
+            <div class="text-center mr-4">
+              <div class="icon-bg water-wave"><i class="fa fa-snowflake-o icon text-primary"></i></div>
+            </div>
+            <div>
+              <h4>Creative Design</h4>
+              Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.
+            </div>
+          </li>
+          <!-- feature item -->
+          <li class="d-flex align-items-center mb-5">
+            <div class="text-center mr-4">
+              <div class="icon-bg water-wave"><i class="fa fa-code icon text-primary"></i></div>
+            </div>
+            <div>
+              <h4>Pixel Perfect Coding</h4>
+              Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-6 col-lg-6 offset-xl-1 pr-xl-0 order-lg-2 order-1 mb-5 mb-xl-0 bg-cover px-0 position-relative min-height-400" data-background="images/feature/feature-2.jpg">
+        <div class="bg-primary px-5 py-4 d-inline-block play-video">
+          <div class="d-flex align-items-center">
+            <a href="https://youtu.be/6WZOxnYi4Cs" class="venobox play-icon mr-4 hover-ripple ripple-white" data-vbtype="video">
+              <i class="fa fa-play text-white"></i>
+            </a>
+            <h4 class="mb-0 text-white">Watch<br>Intro Video</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /feature -->
+
+<!-- customer -->
+<section class="section bg-secondary position-relative">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+        <span class="section-title-border"></span>
+        <p class="subtitle text-white">Customer</p>
+        <h2 class="section-title text-white">We are happy to work with them</h2>
+        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eius tempor incididunt ut labore.</p>
+      </div>
+      <!-- customer logo -->
+      <div class="col-md-6">
+        <div class="d-flex">
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-1-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-1.png" alt="clients-logo"></a>
+          </div>
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-2-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-2.png" alt="clients-logo"></a>
+          </div>
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-3-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-3.png" alt="clients-logo"></a>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-4-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-4.png" alt="clients-logo"></a>
+          </div>
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-5-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-5.png" alt="clients-logo"></a>
+          </div>
+          <div class="flex-basis-33 clients-logo border border-muted">
+            <a class="white" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-6-alt.png" alt="clients-logo"></a>
+            <a class="primary" href="#"><img class="img-fluid" src="images/clients-logo/clients-logo-6.png" alt="clients-logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- background shape -->
+  <img src="images/backgrounds/customer-bg.png" alt="shape" class="customer-bg-shape img-fluid">
+</section>
+<!-- /customer -->
+
+<!-- team -->
+<section class="section bg-gray-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <span class="section-title-border border-center"></span>
+        <p class="subtitle">Our Team</p>
+        <h2 class="section-title">We Are Dynamic Team and<br>Business Agency</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- team member -->
+<div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="team-member text-center">
+    <div class="team-member-img position-relative mb-5">
+      <img class="img-fluid w-100" src="images/team/team-1.jpg" alt="team-member">
+      <div class="hover-icon py-4">
+        <ul class="list-inline social-icon">
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h4><a href="team-single.html" class="text-dark">Frederick Satterfield</a></h4>
+    <span>Designer</span>
+  </div>
+</div>
+<!-- team member -->
+<div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="team-member text-center">
+    <div class="team-member-img position-relative mb-5">
+      <img class="img-fluid w-100" src="images/team/team-2.jpg" alt="team-member">
+      <div class="hover-icon py-4">
+        <ul class="list-inline social-icon">
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h4><a href="team-single.html" class="text-dark">Jaqueline Hamberger</a></h4>
+    <span>Project Manager</span>
+  </div>
+</div>
+<!-- team member -->
+<div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="team-member text-center">
+    <div class="team-member-img position-relative mb-5">
+      <img class="img-fluid w-100" src="images/team/team-3.jpg" alt="team-member">
+      <div class="hover-icon py-4">
+        <ul class="list-inline social-icon">
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="hover-ripple ripple-white"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h4><a href="team-single.html" class="text-dark">Michelle Fischer</a></h4>
+    <span>Developer</span>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+<!-- /team -->
+
+<!-- footer -->
+<footer>
+  <!-- main footer -->
+  <div class="section bg-secondary">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- footer content -->
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="mb-4 d-inline-block" href="index.html"><img class="img-fluid" src="images/logo-alt.png" alt="Bexar"></a>
+          <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
+            labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
+            commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+          <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+            error sit voluptatem.</p>
+          <h4 class="text-white mb-4">Follow Us On</h4>
+          <!-- social links -->
+          <ul class="list-inline social-icon-alt">
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <!-- service list -->
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">Services</h4>
+              <ul class="list-styled">
+                <li class="mb-3 text-light"><a class="text-light d-block" href="about.html">Company History</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="about.html">About Us</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="service.html">Services</a></li>
+                <li class="mb-3 text-light"><a class="text-light d-block" href="privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <!-- contact info -->
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <ul class="list-unstyled">
+                <li class="text-light mb-3">9567 Turner Trace Apt. 466 North Willie, BC C3G8A4</li>
+                <li class="text-light mb-3">+21 123 456 5523 </li>
+                <li class="text-light mb-3">info@bexar.com</li>
+              </ul>
+            </div>
+            <!-- newsletter -->
+            <div class="col-12">
+              <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+              <form action="#">
+                <div class="position-relative">
+                  <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
+                    placeholder="Enter your email">
+                  <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="bg-secondary-darken py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="mb-0 text-white"><span class="text-primary">Bexar</span> &copy; <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> All Right Reserved</p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block px-3 text-white border-right" href="terms-conditions.html">Terms of Service</a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block px-3 text-white" href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- Modernizer -->
+<script src="plugins/modernizer/modernizr.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

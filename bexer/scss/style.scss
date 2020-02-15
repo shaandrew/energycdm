@@ -1,0 +1,77 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Bexer | Business HTML5 Template
+VERSION:	1.0.0
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+1. BASE
+
+  1.1. Typography
+  1.2. Buttons
+  1.3. Common Styles
+
+    1.3.1. Preloader
+    1.3.2. Section
+    1.3.3. Background Image
+    1.3.4. Overlay
+    1.3.5. Common Class
+    1.3.6. Icon Animation
+    1.3.7. Breadcrumb
+    1.3.8. Google Map
+    1.3.9. Form Control
+    1.3.10. Social Icon
+    1.3.11. Slick Slider
+
+2. NAVBAR
+
+3. BANNER SLIDER
+
+4. HOMEPAGE
+
+  4.1. Banner Feature / Service Item
+  4.2. About Section
+  4.3. Funfacts Section
+  4.4. Feature Section
+  4.5. Service Section
+  4.6. Team Section
+  4.7. Project Section
+  4.8. Testimonial Section
+
+5. CLIENTS LOGO
+
+6. CALL TO ACTION
+
+7. PRICING
+
+8. BLOG
+
+9. FOOTER STYLES
+
+-------------------------------------------------------------------*/
+
+@import 'variables';
+
+@import 'typography';
+
+@import 'mixins';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/slider';
+
+@import 'templates/homepage';
+
+@import 'templates/cta';
+
+@import 'templates/pricing';
+
+@import 'templates/blog';
+
+@import 'templates/footer';
